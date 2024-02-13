@@ -1,0 +1,21 @@
+{
+  "name": "anilnabin25/php-framework",
+  "description": "A PHP framework sample",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Divya Shrestha",
+      "email": "anilnabin25@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/",
+      "DivyaShrestha\\Framework\\": "framework/"
+    }
+  },
+  "require-dev": {
+    "symfony/var-dumper": "7.1.x-dev"
+  }
+}
